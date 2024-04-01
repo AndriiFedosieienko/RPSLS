@@ -1,0 +1,76 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+*.ncb
+*.log
+*.DS_Store
+[Tt]humbs.db
+_ReSharper.*
+*.resharper
+Ankh.NoLoad
+*.scc
+*.sw[po]
+
+# Visual Studio litter
+UpgradeLog*.XML
+_UpgradeReport_Files
+vwd.*
+.vs/
+.vscode/solution-explorer
+.vscode/tasks.json
+.vscode/launch.json
+
+# Visual Studio database project lock file
+*.jfm
+
+#Other
+*.dbmdl
+
+# build artifacts
+[Oo]bj
+[Bb]in
+[Dd]ebug
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
+
+
+# test results
+TestResults
+
+# build paths
+/artifacts/
+/build/
+
+us.stackdump
+
+# NUnit Test Coverage Results
+*.coverage
+
+#NCrunch
+*.ncrunchproject
+*.ncrunchsolution
+
+#JetBrains
+.idea/*
+
+*.orig
+jspm_packages
+node_modules
+spa_build_es6
+spa_bundles
+publish/
+*.trx
+*coverage.cobertura.xml
